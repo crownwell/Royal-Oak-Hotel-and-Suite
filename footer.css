@@ -50,11 +50,19 @@ footer {
 }
 
 .btn {
-    background: #B5A067;
     width: 1440px;
     height: 299px;
     left: 0px;
     top: 3101px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a i {
+    color: #B5A067;
 }
 
 .social-links-3 {
