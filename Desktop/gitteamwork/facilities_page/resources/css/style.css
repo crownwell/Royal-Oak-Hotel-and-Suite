@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 150;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background-color: #E5E5E5;
+}
+header img{
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+nav{
+    background-color: #15192D;
+}
+.main-nav{
+    list-style: none;
+    padding: 12px 0;
+    width: 1140px;
+    margin: 0 auto;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 120px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+    text-transform: uppercase;
+    line-height: 130%;
+}
+.first-section{
+   background-image: url(../img/room-1.png);
+   background-position: center;
+   background-size: cover;
+   height: 60vh;
+   margin-top: 1px;
+}
+.section-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-text-box h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.section-text-box p {
+    color: #B5A067;
+    text-align: center;
+}
