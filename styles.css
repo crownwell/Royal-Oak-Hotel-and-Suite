@@ -1,0 +1,159 @@
+.item-a {
+    background-color: #16253D;
+    border: 0px #16253D none;
+    width: auto;
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.item-a>ul>li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    padding: 50px;
+    color: white;
+}
+
+.item-b {
+    background-image: url(phonetable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px white none;
+    width: auto;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item-head>p {
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+.item-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#wrap {
+    text-align: justify;
+}
+
+.item-c-a>h2{
+    margin-bottom: 0px;
+}
+
+.box {
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ecd6b0;
+    height: 4vh;
+}
+
+#mail {
+    width: 30vw;
+    height: 4vh;
+}
+
+.formname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.name-a {
+    display:inline;
+    padding-right: 35px;
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: #ecd6b0;
+    border-style: none;
+}
+
+button {
+    display: block;
+    border-radius: 10px;
+    border-style: none;
+    height: 5vh;
+    width: 10vw;
+    padding: 10px;
+    text-align: center;
+    background-color: #7e7b15;
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.item-c-a {
+    
+    margin: 10px;
+    padding: 20px;
+}
+
+.item-c-b {
+
+    border-left: 3px solid #7e7b15 ;
+    margin-right: 10vw;
+    padding: 20px;
+    height: 70vh;
+    padding-left: 15vw;
+}
+
+.item-d {
+    background-image: url(map.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    width: auto;
+    height: 100vh;
+}
+
+.item-d-a {
+    background-color: #16253D;
+    color: white;
+    width: auto;
+    height: 8vh;
+    text-align: center;
+    margin-bottom: 70vh;
+    padding-top: 5px;
+}
+.material-icons {
+    color: #7e7b15;
+}
+
+.item-d-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: #16253D;
+    width: auto;
+    height: 30vh;
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+#bottom {
+    text-align: center;
+    margin-top: 10vh;
+}
