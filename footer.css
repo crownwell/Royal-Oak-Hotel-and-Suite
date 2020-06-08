@@ -61,6 +61,10 @@ a {
     color: #ffffff;
 }
 
+a i {
+    color: #B5A067;
+}
+
 .fa-facebook {
     color: #B5A067;
     margin-right: 20px;
