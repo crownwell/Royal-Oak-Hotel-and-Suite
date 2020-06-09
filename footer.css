@@ -99,3 +99,22 @@ a i {
 .social-links-3 {
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .social-links-2 {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .contact {
+        text-align: center;
+    }
+}
