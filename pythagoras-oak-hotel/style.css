@@ -1,0 +1,267 @@
+*{
+  box-sizing: border-box;
+ /*border:1px solid black;*/
+}
+body{
+  font-family: 'Montserrat';
+  /*background-color: #F4EFEF;*/
+}
+
+header{
+  text-align:center;
+  background-color: #F4EFEF;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:#15192D;
+  width: 100%;
+  height: 95px;
+  left: 0px;
+}
+
+a{
+  color: white;
+  margin-top: 10px;
+  padding:0 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.welcome{
+  background-image: url('images/welcome.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800.34px;
+  background-size: cover;
+  position: relative;
+}
+
+.welcome_text{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 3.55765px 3.55765px rgba(0, 0, 0, 0.25);
+}
+
+.welcome_text2{
+  text-align: center;
+  position: absolute;
+  left: 8%;
+  color: white;
+  width: 1148px;
+  height: 208px;
+  top: 478px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 72px;
+  color: #FDFDFD;
+}
+
+
+.button {
+  position: absolute;
+  width: 193px;
+  height: 70px;
+  left: 40%;
+  top: 857px;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFAFA;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+.button2 {
+  width: 193px;
+  height: 70px;
+  background-color:#B5A067;
+
+  cursor: pointer;
+  border: 3px solid #B5A067;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFAFA;
+}
+
+.price{
+  color: #B5A067;
+}
+.z-index{
+  position: relative;
+  width: 403px;
+  height: 94px;
+  left: 67px;
+  font-family: Agency FB;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 104px;
+  margin: 0;
+  color: #C4C4C4;
+  padding-top: 20px;
+}
+
+.z-index2{
+  position: absolute;
+width: 635px;
+height: 57px;
+left: 162px;
+top: 970px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bolder;
+font-size: 24px;
+line-height: 32px;
+}
+
+hr.new4 {
+  border: 1px solid black;
+  position: absolute;
+  width: 664px;
+  height: 0px;
+  left: 604px;
+  top: 1000px;
+}
+
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-bottom: 30px;
+}
+
+#word_of_excellence,#testimonial_1{
+  float: left;
+    width: 50%;
+    overflow: hidden;
+}
+#image_of_excellence,#testimonial_2{
+  float:right;
+  width:35%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.excellence{
+  background-color: white;
+}
+.our_room,.testimony{
+  background-color: #F4EFEF;
+}
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container2 {
+  background-color: white;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+/* Clear floats after containers */
+.container2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container2 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container2 {
+    text-align: center;
+  }
+
+  .container2 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+#img-container { position: relative; }
+
+#img-container, #top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#word_of_excellence{
+  margin-left: 100px;
+  margin-top: 70px;
+  font-size: 28px;
+}
+footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #15192D;
+   color: white;
+   display:inline-block;
+   padding: 10px;
+}
+#contact_us{
+  float: left;
+    width: 50%;
+    overflow: hidden;
+}
+#follow_us{
+  float:right;
+  width:50%;
+  overflow: hidden;
+  align-items: center;
+}
