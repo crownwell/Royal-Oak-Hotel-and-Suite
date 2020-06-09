@@ -10,10 +10,11 @@ footer {
 
 .footer-div {
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
 }
 
@@ -40,6 +41,21 @@ a {
     color: #ffffff;
 }
 
+.fa-phone {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-envelope {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-map-marker-alt {
+    width: 40px;
+    font-size: 30px;
+}
+
 a i {
     color: #B5A067;
 }
@@ -47,16 +63,18 @@ a i {
 .fa-facebook {
     color: #B5A067;
     margin-right: 20px;
+    font-size: 44px;
 }
 
 .fa-instagram {
     background-color: #B5A067;
     color: #15192D;
-    padding: 12px;
+    padding: 10px;
     border-radius: 50%;
     position: relative;
     bottom: 8px;
     margin-right: 20px;
+    font-size: 25px;
 }
 
 .fa-twitter {
@@ -66,13 +84,13 @@ a i {
     border-radius: 50%;
     position: relative;
     bottom: 8px;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 .fa-google-plus-g {
     background-color: #B5A067;
     color: #15192D;
-    padding: 12px;
+    padding: 12px 10px;
     border-radius: 50%;
     position: relative;
     bottom: 8px;
