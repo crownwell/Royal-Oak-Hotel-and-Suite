@@ -1,0 +1,403 @@
+
+html,body{
+  font-family: 'Montserrat';
+  width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header{
+  text-align:center;
+  background-color: #F4EFEF;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  background-color:#15192D;
+  height: 60px;
+}
+
+a{
+  color: white;
+  margin-top: 10px;
+  padding:0 20px 0 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.welcome{
+  background-image: url('images/welcome.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800.34px;
+  background-size: cover;
+  position: relative;
+}
+
+.welcome_text{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 3.55765px 3.55765px rgba(0, 0, 0, 0.25);
+}
+
+.welcome_text2{
+  text-align: center;
+  position: absolute;
+  color: white;
+  width: 1148px;
+  height: 208px;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+@media screen and (max-width: 600px) {
+  .welcome_text{
+    top: 30%
+  }
+  .welcome_text2 {
+    display: none;
+  }
+}
+
+.button {
+  position: absolute;
+  width: 193px;
+  height: 70px;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFAFA;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+.button2 {
+  width: 180px;
+  height: 70px;
+  background-color:#B5A067;
+  cursor: pointer;
+  border: 3px solid #B5A067;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFAFA;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+.price{
+  color: #B5A067;
+}
+.z-index{
+  position: relative;
+  left: 67px;
+  font-family: Agency FB;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 104px;
+  margin-top: 0;
+  color: #C4C4C4;
+}
+
+.z-index2{
+  position: absolute;
+  width: 635px;
+  height: 57px;
+  left: 162px;
+  top: 20%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .z-index{
+    font-size: 64px;
+    left:5px;
+  }
+  .z-index2 {
+    font-size: 20px;
+    left: 0px;
+  }
+}
+
+
+
+hr.new4 {
+  border: 1px solid black;
+  position: absolute;
+  width: 664px;
+  height: 0px;
+  left: 45%;
+  top: 20%
+}
+
+@media screen and (max-width: 600px) {
+  hr.new4 {
+    display: none;
+  }
+}
+
+.img-gallery {
+  display: flex;
+  padding:80px;
+  justify-content: space-between;
+}
+
+.img-gallery > div {
+  width:100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .img-gallery {
+    flex: 100%;
+    overflow: scroll;
+    padding: 10px
+  }
+}
+
+
+.row {
+  display: flex;
+  padding:80px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    align-content: center;
+    padding: 50px;
+  }
+}
+
+.row > div {
+  background-color: #F4EFEF;
+   margin-bottom: 20px;
+   align-self: center;
+}
+
+
+.our_room,.testimony{
+  background-color: #F4EFEF;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: #15192D;
+    width: 100%;
+}
+
+.footer-div {
+    color: white;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.contact {
+    margin-left: 2%;
+    padding: 17px;
+}
+
+.social-links-2 {
+    float: right;
+    margin-top: -223px;
+    margin-left: 2%;
+}
+
+.btn {
+    width: 1440px;
+    height: 299px;
+    left: 0px;
+    top: 3101px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa-phone {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-envelope {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-map-marker-alt {
+    width: 40px;
+    font-size: 30px;
+}
+
+a i {
+    color: #B5A067;
+}
+
+.fa-facebook {
+    color: #B5A067;
+    margin-right: 20px;
+    font-size: 44px;
+}
+
+.fa-instagram {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.fa-twitter {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 12px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    margin-right: 18px;
+}
+
+.fa-google-plus-g {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 12px 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+}
+
+.social-links-3 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .social-links-2 {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .contact {
+        text-align: center;
+    }
+}
+
+
+.gold {
+  color: #ffd700;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #15192D;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
