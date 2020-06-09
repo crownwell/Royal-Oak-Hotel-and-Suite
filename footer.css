@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     background: #15192D;
+    width: 100%;
 }
 
 .footer-div {
@@ -11,41 +17,14 @@ footer {
     line-height: 29px;
 }
 
-/* .contact {
-    position: absolute;
-    width: 143px;
-    height: 32px;
-    left: 77px;
-    top: 3160px;
+.contact {
+    margin-left: 2%;
+    padding: 17px;
 }
-
-.phone {
-    position: absolute;
-    width: 215px;
-    height: 20px;
-    left: 90px;
-    top: 3217px;
-}
-
-.email {
-    position: absolute;
-    width: 252px;
-    height: 17px;
-    left: 104px;
-    top: 3263px;
-}
-
-.map {
-    position: absolute;
-    width: 356px;
-    height: 44px;
-    left: 121px;
-    top: 3303px;
-} */
 
 .social-links-2 {
     float: right;
-    margin-top: -160px;
+    margin-top: -213px;
     margin-right: 12%;
 }
 
