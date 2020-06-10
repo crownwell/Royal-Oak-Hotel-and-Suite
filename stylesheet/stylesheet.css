@@ -140,6 +140,12 @@ ul{
     width: 60%; /* Set the width of the positioned div */
 }
 
+@media only screen and (max-width: 600px) {
+    /* .box .text {
+        font-size: 100px;
+    } */
+  }
+
 .room{
     font-size: 64px;
 }
@@ -199,3 +205,5 @@ hr {
     top: 4577.22px;
     border: 1.05551px solid #000000;
 }
+
+
