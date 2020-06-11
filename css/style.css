@@ -13,7 +13,7 @@ header{
 }
 
 .welcome{
-  background-image: url('images/welcome.png');
+  background-image: url(../images/welcome.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 800.34px;
